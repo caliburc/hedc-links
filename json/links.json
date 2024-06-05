@@ -1,0 +1,101 @@
+{
+    "categories": [
+        {
+            "name": "HEDC Infrastructure",
+            "links": [
+                {
+                    "title": "vCenter - apvcsa1p (Internal)",
+                    "url": "https://apvcsa1p",
+                    "tags": ["vcenter","vmware","virtual","esxi"]
+                },
+                {
+                    "title": "F5 Loadbalancers (Click to expand)",
+                    "url": "",
+                    "tags": ["F5","loadbalancer","bigip","big-ip"],
+                    "sublinks": [
+                        {
+                            "title": "Prod Node1",
+                            "url": "https://node1",
+                            "tags": ["F5","loadbalancer","bigip","big-ip","prod"]
+                        },
+                        {
+                            "title": "Prod Node2",
+                            "url": "https://node2",
+                            "tags": ["F5","loadbalancer","bigip","big-ip","prod"]
+                        }
+                    ]
+                },
+                {
+                    "title": "test",
+                    "url": "https://apvcsa1p",
+                    "tags": ["vcenter","vmware","virtual","esxi"]
+                }
+            ]
+        },
+        {
+            "name": "HEDC Hosted Applications",
+            "links": [
+                {
+                    "title": "MABSM",
+                    "url": "https://helpdesk.com",
+                    "tags": ["IT", "helpdesk", "printers", "customer support"]
+                },
+                {
+                    "title": "ACC Portal",
+                    "url": "https://example.com/software",
+                    "tags": ["IT", "software"]
+                }
+            ]
+        },
+        {
+            "name": "Change Management",
+            "links": [
+                {
+                    "title": "Hill Remedy (Smart IT)",
+                    "url": "https://helpdesk.com",
+                    "tags": ["Remedy","tickets","workorder","incident","helpdesk","printers", "customer support"]
+                },
+                {
+                    "title": "Hill Remedy SRM",
+                    "url": "https://helpdesk.com",
+                    "tags": ["IT", "software"]
+                },
+                {
+                    "title": "AFNet Remedy (EITMS)",
+                    "url": "https://helpdesk.com",
+                    "tags": ["IT", "software"]
+                },
+                {
+                    "title": "AFNet Remedy - New Server SRM",
+                    "url": "https://eitsm",
+                    "tags": ["IT", "software"]
+                },
+                {
+                    "title": "AFNet Remedy - New Service Account",
+                    "url": "https://eitsm",
+                    "tags": ["IT", "software"]
+                },
+                {
+                    "title": "AFNet Remedy ",
+                    "url": "https://eitsm",
+                    "tags": ["IT", "software"]
+                }
+            ]
+        },
+        {
+            "name": "DISA",
+            "links": [
+                {
+                    "title": "DISA Helpdesk",
+                    "url": "https://disa",
+                    "tags": ["DISA","helpdesk","incident"]
+                },
+                {
+                    "title": "DISA ACAS Patch Repo",
+                    "url": "https://disa",
+                    "tags": ["DISA","ACAS"]
+                }
+            ]
+        }
+    ]
+}

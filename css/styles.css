@@ -1,0 +1,90 @@
+body {
+    font-family: Trebuchet, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('../images/f35-4.jpg'); /* Adjust the path to your image */
+    background-size: cover; /* Scale the image as large as possible while maintaining aspect ratio and covering the entire header */
+    background-position: center top 70%; /* Center the background image horizontally */
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+    text-shadow: 8px 4px 10px rgba(0,0,0,0.3);
+    font-size: 20px;
+}
+
+#searchBar {
+    width: 42%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+#searchBar::placeholder {
+    color: #616161
+}
+
+main {
+    padding: 20px;
+}
+
+#categories {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.category {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h3 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+.link-item {
+    position: relative;
+}
+
+.link-item a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-left: 5px;
+}
+
+.link-item a:hover {
+    text-decoration: underline;
+}
+
+.arrow-icon {
+    cursor: pointer;
+    margin-right: 5px;
+    padding-right: 5px; /* Add padding to the right of the arrow */
+}
+
+.sub-list {
+    list-style: circle;
+    padding-left: 40px; /* Indent sublist */
+    margin: 5px 0;
+    background-color: #fff; /* Add background color */
+
+}
+
+.hidden {
+    display: none;
+}
